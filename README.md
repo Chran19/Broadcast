@@ -1,10 +1,10 @@
-# ✈️ Broadcast Receiver Demo
+# Broadcast Receiver Demo
 
 An Android application demonstrating the use of **BroadcastReceiver** to detect and respond to system-level events, specifically Airplane Mode state changes.
 
 ---
 
-## 📖 Introduction
+## Introduction
 
 This project showcases how to implement a **BroadcastReceiver** in Android to listen for system broadcasts. The app monitors the device's Airplane Mode status and provides real-time visual feedback when the mode is toggled on or off.
 
@@ -12,7 +12,7 @@ BroadcastReceivers are a fundamental Android component that allows apps to respo
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 Broadcast/
@@ -40,19 +40,19 @@ Broadcast/
 
 ---
 
-## ✨ Features
+## Features
 
-| Feature                     | Description                                                    |
-| --------------------------- | -------------------------------------------------------------- |
-| 🔄 **Real-time Detection**  | Instantly detects when Airplane Mode is toggled                |
-| 📡 **Dynamic Registration** | BroadcastReceiver registered dynamically in activity lifecycle |
-| 🎨 **Visual Feedback**      | Displays emoji indicators (✈️ for ON, 📶 for OFF)              |
-| 🔘 **Manual Check**         | Button to manually check current Airplane Mode status          |
-| 📱 **Clean UI**             | Modern Material Design interface                               |
+| Feature                  | Description                                                    |
+| ------------------------ | -------------------------------------------------------------- |
+| **Real-time Detection**  | Instantly detects when Airplane Mode is toggled                |
+| **Dynamic Registration** | BroadcastReceiver registered dynamically in activity lifecycle |
+| **Visual Feedback**      | Displays status indicators for ON/OFF states                   |
+| **Manual Check**         | Button to manually check current Airplane Mode status          |
+| **Clean UI**             | Modern Material Design interface                               |
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Language:** Java
 - **Min SDK:** 24 (Android 7.0)
@@ -67,7 +67,7 @@ Broadcast/
 
 ---
 
-## 🚀 How It Works
+## How It Works
 
 1. **Registration:** The app dynamically registers an `IntentFilter` for `Intent.ACTION_AIRPLANE_MODE_CHANGED` in `onStart()`
 2. **Detection:** When Airplane Mode is toggled, the system broadcasts an intent
@@ -84,7 +84,7 @@ registerReceiver(airplaneModeReceiver, filter);
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 > Add screenshots of your app here
 >
@@ -94,7 +94,7 @@ registerReceiver(airplaneModeReceiver, filter);
 
 ---
 
-## 📦 Installation
+## Installation
 
 1. Clone the repository
 2. Open in Android Studio
@@ -103,16 +103,18 @@ registerReceiver(airplaneModeReceiver, filter);
 
 ---
 
-## 📄 License
+## License
 
 This project is for educational purposes.
 
 ---
 
-## 👤 Author
+## Author
 
 **Ranjeet**
 
+GitHub: [@Chran19](https://github.com/Chran19)
+
 ---
 
-_Built with ❤️ for learning Android Development_
+*Built for learning Android Development*
