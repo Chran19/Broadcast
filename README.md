@@ -88,9 +88,9 @@ registerReceiver(airplaneModeReceiver, filter);
 
 > Add screenshots of your app here
 >
-> | Airplane Mode OFF           | Airplane Mode ON          |
-> | --------------------------- | ------------------------- |
-> | ![OFF](screenshots/off.png) | ![ON](screenshots/on.png) |
+> | Airplane Mode OFF          | Airplane Mode ON         |
+> | -------------------------- | ------------------------ |
+> | ![OFF](pics\Off_Plane.png) | ![ON](pics/On_Plane.png) |
 
 ---
 
@@ -117,4 +117,4 @@ GitHub: [@Chran19](https://github.com/Chran19)
 
 ---
 
-*Built for learning Android Development*
+_Built for learning Android Development_
