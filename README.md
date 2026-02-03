@@ -90,7 +90,7 @@ registerReceiver(airplaneModeReceiver, filter);
 >
 > | Airplane Mode OFF          | Airplane Mode ON         |
 > | -------------------------- | ------------------------ |
-> | ![OFF](pics\Off_Plane.png) | ![ON](pics/On_Plane.png) |
+> | ![OFF](pics/Off_Plane.png) | ![ON](pics/On_Plane.png) |
 
 ---
 
